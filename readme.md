@@ -5,7 +5,6 @@ O chatbot utiliza a API da OpenAI, integrada através da biblioteca `langchain`,
 ## Requisitos
 
 - Python 3.x
-
 - Acesso à API da OpenAI
 
 
@@ -15,36 +14,24 @@ Para configurar o ambiente do projeto, siga os seguintes passos:
 
 1. Clone o repositório:
    ```bash
-   git clone [URL do Repositório]
+   git clone https://github.com/danielquintaos/mod8-pon5
    ```
 
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd [Nome do Diretório]
-   ```
+2. Substitua 'your_api_key' pela sua chave API da OpenAI no script do chatbot.
+
 
 3. Instale as dependências:
    ```bash
    pip install -r requirements.txt
    ```
 
+4. Execute o script Python para iniciar a interface do chatbot:
 
-## Configuração
-
-1. **Chave API da OpenAI:** Defina a chave API da OpenAI como uma variável de ambiente (`OPENAI_API_KEY`) ou modifique o arquivo `app.py` para incluir a chave API diretamente no código (não recomendado por questões de segurança).
-
-2. **Conteúdo do Documento:** Certifique-se de que o arquivo `data/safety_rules.txt` contém o texto atualizado das normas de segurança que deseja que o chatbot utilize como contexto.
-
-
-## Uso
-
-Para iniciar o chatbot, execute:
-
-```bash
+```
 python app.py
 ```
 
-Isso abrirá a interface do chatbot em um navegador web, onde os usuários podem interagir digitando perguntas.
+Isso abrirá a interface do chatbot em um navegador, onde os usuários podem interagir digitando perguntas.
 
 
 ## Estrutura do Projeto
