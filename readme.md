@@ -1,5 +1,5 @@
 Este projeto implementa um chatbot que responde a perguntas relacionadas a normas de segurança em ambientes industriais com base naquelas utilizadas pela Universidade de Deakin. 
-O chatbot utiliza a API da OpenAI, integrada através da biblioteca `langchain`, e apresenta uma interface de usuário construída com `gradio`.
+O chatbot utiliza a API da OpenAI, integrada através da biblioteca `langchain`, apresenta uma interface de usuário construída com `gradio`, e text-to-speech construído com `gtts`.
 
 
 ## Requisitos
@@ -37,10 +37,13 @@ Isso abrirá a interface do chatbot em um navegador, onde os usuários podem int
 ## Estrutura do Projeto
 
 - `app.py`: Arquivo principal do chatbot.
+- `tts.py`: Integra a funcionalidade TTS ao projeto.
 - `requirements.txt`: Lista de dependências do Python.
 - `data/safety_rules.txt`: Arquivo com o texto das normas de segurança.
 
 
 ## Demonstração
 
-Vídeo: https://youtu.be/aR2US1sYK5Y
+Vídeo (sem TTS): https://youtu.be/aR2US1sYK5Y (sem TTS)
+Imagem (com TTS):
+![TTS](/tts-funcionando.PNG "TTS")
